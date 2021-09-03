@@ -68,7 +68,6 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background-image: url("bg.jpg");
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -207,6 +206,14 @@ text-transform: uppercase;
 }
 
 .btn-save:hover {
-    color: var(--clr-white);
-    background: var(--clr-black);
+   color: var(--clr-white);
+   background: var(--clr-black);
   }
+
+html {
+   background: url("bg.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover; 
+}
